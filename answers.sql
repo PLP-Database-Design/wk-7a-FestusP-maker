@@ -1,3 +1,9 @@
+--create database productdb
+CREATe DATABASE productdb
+
+--use database
+USE productdb
+
 -- Creating the normalized table
 CREATE TABLE ProductDetail_1NF (
     OrderID INT,
